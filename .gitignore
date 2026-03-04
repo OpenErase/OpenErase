@@ -1,0 +1,72 @@
+# ==========================================
+# CMake & Build Artifacts
+# ==========================================
+# Ignore the build directory we created earlier
+build/
+out/
+bin/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# ==========================================
+# Compiled Binaries & Object Files
+# ==========================================
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.ilk
+*.pdb
+*.exp
+
+# ==========================================
+# Test Output & Logs
+# ==========================================
+Testing/
+*.log
+*.gcda
+*.gcno
+
+# ==========================================
+# IDEs & Editors
+# ==========================================
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Visual Studio (Windows)
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+.vs/
+
+# JetBrains / CLion
+.idea/
+cmake-build-*/
+
+# macOS / Apple
+.DS_Store
+*.swp
+*~
+
+# ==========================================
+# Project Specific (OpenErase)
+# ==========================================
+# Ignore any dummy files you create to test the shredder!
+test_secret.txt
+dummy_data/
